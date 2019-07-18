@@ -7,7 +7,7 @@
 
 This is a [Gatsby](https://www.gatsbyjs.org) [React](https://reactjs.org/) static [Progressive Web App (PWA)](https://en.wikipedia.org/wiki/Progressive_web_applications) that does work with
 
-[Gripp client Symfony](https://github.com/noud/gripp_client_symfony/blob/master/README.md)
+[Gripp Symfony](https://github.com/noud/gripp_symfony/blob/master/README.md)
 
 and demonstrate [API-First](https://swagger.io/resources/articles/adopting-an-api-first-approach/) development to facilitate a [Rapid-application development (RAD)](https://en.wikipedia.org/wiki/Rapid_application_development) process.
 
