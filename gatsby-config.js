@@ -6,14 +6,14 @@
 
 module.exports = {
 		  siteMetadata: {
-			    title: `Hello World Pandas`,
+			    title: `Gripp`,
 			  },
 	plugins : [
 	    {
 	        resolve: `gatsby-plugin-manifest`,
 	        options: {
-	          name: `GatsbyStarterHelloWorldPandas`,
-	          short_name: `GatsbyStarterHelloWorldPandas`,
+	          name: `Gripp API client`,
+	          short_name: `Gripp API client`,
 	          start_url: `/`,
 	          background_color: `#6b37bf`,
 	          theme_color: `#6b37bf`,
@@ -25,14 +25,17 @@ module.exports = {
 	      },
 	      `gatsby-plugin-offline`,
 	      `gatsby-plugin-react-helmet`,
-	    {
-	        resolve: `gatsby-source-filesystem`,
-	        options: {
-	          name: `src`,
-	          path: `${__dirname}/src/`,
+	      {
+	          resolve: "gatsby-source-graphql",
+	          options: {
+	            // This type will contain remote schema Query type
+	            typeName: "GRIPPAPI",
+	            // This is the field under which it's accessible
+	            fieldName: "grippapi",
+	            // URL to query from
+	            url: "http://gripp.localhost/api/graphql",
+	          },
 	        },
-	      },
-	      `gatsby-transformer-remark`,
 	    `gatsby-plugin-emotion`,
 		{
 			resolve : `gatsby-plugin-typography`,
