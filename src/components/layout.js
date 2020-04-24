@@ -27,7 +27,7 @@ export default ({ children }) => {
   <ul style={{ listStyle: `none`, float: `right` }}>
     <ListLink to="/">Home</ListLink>
     <ListLink to="/about/">About</ListLink>
-    <ListLink to="/tags/">Tags</ListLink>
+    <ListLink to="/tag/">Tags</ListLink>
     <ListLink to="/contact/">Contact</ListLink>
   </ul>
 </header>
