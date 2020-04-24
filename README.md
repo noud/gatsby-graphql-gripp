@@ -1,23 +1,13 @@
-# Gripp client Gatsby React
+# [Gatsby](https://www.gatsbyjs.org) [React](https://reactjs.org) static [Progressive Web App (PWA)](https://en.wikipedia.org/wiki/Progressive_web_applications) [GraphQL](https://graphql.org) to [API v3](https://api.gripp.com/public/api3.php) from [Gripp.com](https://www.gripp.com)
 
 ![Gripp client Gatsby React](./docs/gripp_client_react_gatsby.png?raw=true "Gripp client Gatsby React")
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://raw.githubusercontent.com/noud/gripp_client_react_gatsby/master/LICENSE)
 [![master](https://img.shields.io/badge/current-dev-aa11ff.svg)](https://github.com/noud/gripp_client_react_gatsby/releases)
 
-This is a [Gatsby](https://www.gatsbyjs.org) [React](https://reactjs.org/) static [Progressive Web App (PWA)](https://en.wikipedia.org/wiki/Progressive_web_applications) that does work with
+[API-First](https://swagger.io/resources/articles/adopting-an-api-first-approach/) development to facilitate a [Rapid-application development (RAD)](https://en.wikipedia.org/wiki/Rapid_application_development) process.
 
-[Gripp Symfony](https://github.com/noud/gripp_symfony/blob/master/README.md)
-
-and demonstrate [API-First](https://swagger.io/resources/articles/adopting-an-api-first-approach/) development to facilitate a [Rapid-application development (RAD)](https://en.wikipedia.org/wiki/Rapid_application_development) process.
-
-## API
-
-The app consumes [GraphQL](https://en.wikipedia.org/wiki/GraphQL)
-
-## Security
-
-@TODO
+## [Gripp Symfony](https://github.com/noud/gripp_symfony/blob/master/README.md) back end
 
 ## 🚀 Quick start
 
