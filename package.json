@@ -23,7 +23,7 @@
     "gatsby-plugin-typography": "^2.4.3",
     "gatsby-source-graphql": "^2.4.3",
     "react": "^16.13.0",
-    "react-dev-utils": "^10.2.1",
+    "react-dev-utils": "^11.0.4",
     "react-dom": "^16.13.0",
     "react-helmet": "^5.2.1",
     "react-typography": "^0.16.19",
